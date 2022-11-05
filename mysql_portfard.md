@@ -1,9 +1,7 @@
 # クライアントからLaravel Sailで構築したmysqlへの接続方法
 
 #### 1・・・・以下のスクリプトをコピーして任意の名前で保存
-##### 例  
-~~~$ ****.sh
-~~~
+##### 例  $ ****.sh
 
 ```
 #Laravel Sail to mysql PortForward
