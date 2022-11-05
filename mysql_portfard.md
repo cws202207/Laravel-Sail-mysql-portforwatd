@@ -38,8 +38,8 @@ Waiting for connections...
 #### 5・・・・mysqlコマンドやベンチマークで接続
 
 例  local  
-$ mysql -uroot -h 127.0.0.1 -P 3306 -p  
-$ password (初期パスワード：password)  
+` $ mysql -uroot -h 127.0.0.1 -P 3306 -p`   
+` $ password (初期パスワード：password)  `
 
 
 例  remote  
