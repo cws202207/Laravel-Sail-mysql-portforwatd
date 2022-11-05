@@ -44,5 +44,10 @@ $ password (初期パスワード：password)
 
 例  remote  
 コネクション確立
-Connection accepted for session [t-saito-0ff4075884335f2fc]
+~~~
+Starting session with SessionId: t-saito-0ff4075884335f2fc
+Port 3306 opened for sessionId t-saito-0ff4075884335f2fc.
+Waiting for connections...
 
+[Connection accepted for session [t-saito-0ff4075884335f2fc]]
+~~~
