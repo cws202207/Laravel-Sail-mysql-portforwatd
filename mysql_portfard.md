@@ -40,7 +40,7 @@ Waiting for connections...
   
 local  
 ` $ mysql -uroot -h 127.0.0.1 -P 3306 -p`   
-` $ password (初期パスワード：password)  `
+` $ Enter password: (初期パスワード：password)  `
 
 
   
