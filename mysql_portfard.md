@@ -17,7 +17,6 @@ aws ssm start-session --region "ap-northeast-1"  \
 $ chmod +x ****.sh
 
 #### 3・・・・実行する
-##### 例  
-$ ./****.sh
+##### 例  $ ./****.sh
 
 
