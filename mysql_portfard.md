@@ -49,5 +49,5 @@ Starting session with SessionId: t-saito-0ff4075884335f2fc
 Port 3306 opened for sessionId t-saito-0ff4075884335f2fc.
 Waiting for connections...
 
-[Connection accepted for session [t-saito-0ff4075884335f2fc]]
+***Connection accepted for session [t-saito-0ff4075884335f2fc]***
 ~~~
