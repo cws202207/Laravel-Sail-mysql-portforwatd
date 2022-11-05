@@ -20,14 +20,15 @@ aws ssm start-session --region "ap-northeast-1"  \
 
 #### 2・・・・実行権限を付与
 ##### 例  
-$ chmod +x ****.sh
+` $ chmod +x ****.sh`  
 
 #### 3・・・・実行する
-##### 例  $ ./****.sh
+##### 例  
+` $ ./****.sh`  
 
 #### 4・・・・ローカルの3306ポートでコネクション待ち状態になるので
 
-$ ./****.sh 
+` $ ./****.sh`  
  
 ```
 Starting session with SessionId: t-saito-0ff4075884335f2fc  
