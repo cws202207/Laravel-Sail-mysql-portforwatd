@@ -68,8 +68,19 @@ Oracle is a registered trademark of Oracle Corporation and/or its
 affiliates. Other names may be trademarks of their respective  
 owners.  
   
-Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.  
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.   
+mysql> show databases;  
++--------------------+  
+| Database           |  
++--------------------+  
+| information_schema |  
+| laravel_sail_api   |  
+| mysql              |  
+| performance_schema |  
+| sys                |  
+| testing            |  
++--------------------+  
+6 rows in set (0.02 sec)  
+  
+mysql>  
 ~~~
-
-
-
