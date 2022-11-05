@@ -27,12 +27,13 @@ $ chmod +x ****.sh
 
 #### 4・・・・ローカルの3306ポートでコネクション待ち状態になるので
 
-$ ./****.sh  
-
+$ ./****.sh 
+ 
+```
 Starting session with SessionId: t-saito-0ff4075884335f2fc  
 Port 3306 opened for sessionId t-saito-0ff4075884335f2fc.  
 Waiting for connections...  
-
+```
 
 #### 5・・・・mysqlコマンドやベンチマークで接続
 
