@@ -1,6 +1,6 @@
 # Laravel Sailで構築したmysql.serverへの接続方法
-Localの3306番ポートをリモートの3306へ転送
-mysqlclientのインストール
+Localの3306番ポートをリモートの3306へ転送  
+mysqlclientのインストール  
 (https://qiita.com/fault/items/b854d90ae6eef5aa3417)
 
 
