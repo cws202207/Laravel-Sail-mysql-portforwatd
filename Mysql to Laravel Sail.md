@@ -10,9 +10,13 @@ mysqlclientのインストール
 
 localでmysql.serverを実行しているとポートが被るので、3307などにlocalPortNumberを変更して下さい。  
 
+--profile 'gem-entertainment-standard-fa-dev_mfa'を使用してして下さい。  
+(https://github.com/mamemomonga/terraform-user-mfa/blob/master/AWS-SignIn.md)  
+  
 ```
 #Laravel Sail to mysql PortForward
 aws ssm start-session --region "ap-northeast-1"  \
+--profile 'gem-entertainment-standard-fa-dev_mfa'  \
 --target i-00a9559e0b777551e  \
 --document-name AWS-StartPortForwardingSession  \
 --parameters '{"portNumber":["3306"], "localPortNumber":["3306"]}'
