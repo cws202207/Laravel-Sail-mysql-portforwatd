@@ -7,6 +7,7 @@ mysqlclientのインストール
 #### 1・・・・以下のスクリプトをコピーして任意の名前で保存
 ##### 例  $ ****.sh
 
+localでmysql.serverを実行しているとポートが被るので、localPortNumberを変更して下さい。  
 ```
 #Laravel Sail to mysql PortForward
 aws ssm start-session --region "ap-northeast-1"  \
