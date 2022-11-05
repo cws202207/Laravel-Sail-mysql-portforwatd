@@ -31,8 +31,8 @@ aws ssm start-session --region "ap-northeast-1"  \
 ` $ ./****.sh`  
  
 ```
-Starting session with SessionId: t-saito-0ff4075884335f2fc  
-Port 3306 opened for sessionId t-saito-0ff4075884335f2fc.  
+Starting session with SessionId: *********0ff4075884335f2fc  
+Port 3306 opened for sessionId *********0ff4075884335f2fc.  
 Waiting for connections...  
 ```
 
@@ -47,11 +47,11 @@ local
 remote  
 コネクション確立
 ~~~
-Starting session with SessionId: t-saito-0ff4075884335f2fc
-Port 3306 opened for sessionId t-saito-0ff4075884335f2fc.
+Starting session with SessionId: *********0ff4075884335f2fc
+Port 3306 opened for sessionId *********0ff4075884335f2fc.
 Waiting for connections...
 
-Connection accepted for session [t-saito-0ff4075884335f2fc]  
+Connection accepted for session [*********0ff4075884335f2fc]  
 ~~~  
 
 local  
