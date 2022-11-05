@@ -37,13 +37,13 @@ Waiting for connections...
 ```
 
 #### 5・・・・mysqlコマンドやベンチマークで接続
-##### 例  
+  
 local  
 ` $ mysql -uroot -h 127.0.0.1 -P 3306 -p`   
 ` $ password (初期パスワード：password)  `
 
 
-#### 例  
+  
 remote  
 コネクション確立
 ~~~
@@ -51,5 +51,25 @@ Starting session with SessionId: t-saito-0ff4075884335f2fc
 Port 3306 opened for sessionId t-saito-0ff4075884335f2fc.
 Waiting for connections...
 
-***Connection accepted for session [t-saito-0ff4075884335f2fc]***
+Connection accepted for session [t-saito-0ff4075884335f2fc]  
+~~~  
+
+local  
 ~~~
+mysql -uroot -h 127.0.0.1 -P 3306 -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.  
+Your MySQL connection id is 18081  
+Server version: 8.0.31 MySQL Community Server - GPL  
+  
+Copyright (c) 2000, 2022, Oracle and/or its affiliates.  
+  
+Oracle is a registered trademark of Oracle Corporation and/or its  
+affiliates. Other names may be trademarks of their respective  
+owners.  
+  
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.  
+~~~
+
+
+
